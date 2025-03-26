@@ -1,0 +1,11 @@
+src/ICAIF_KAGGLE/
+src/Code/data/Base.csv
+*/*/*/__pycache__
+
+src/Code/data/BAF*
+src/Code/experts/expert_info
+src/Code/expertise_models/models
+src/Code/ml_model/model
+src/Code/testbed/test*
+src/Code/testbed/train
+src/Dependencies/
