@@ -64,12 +64,12 @@ Each python file that you want to run required you `cd` to their `parent directo
 
 ### L2D Baseline Results
 
-After following the steps to obtain the **FiFAR Dataset**, detailed in the previous section, the user must run the file "[Code/testbed/run_tests.py](Code/testbed/run_tests.py)". This script produces the test split assignments for each testing scenario. These assignments are obtained by using each of our 3 baseline models, detailed in the [paper](Documents/Paper.pdf), resulting in a total of 900 sets of assignments.
+After following the steps to obtain the **FiFAR Dataset**, detailed in the previous section, the user must run the file "[src/Code/testbed/run_tests.py](src/Code/testbed/run_tests.py)". This script produces the test split assignments for each testing scenario. These assignments are obtained by using each of our 3 baseline models, detailed in the [paper](src/Documents/Paper.pdf), resulting in a total of 900 sets of assignments.
 
 ### ML Model evaluation
 
-The plots, numerical results, and hyperparameter choices relating to our ML model are obtained using the script [Code/ml_model/training_and_predicting.py](Code/ml_model/training_and_predicting.py).
+The plots, numerical results, and hyperparameter choices relating to our ML model are obtained using the script [src/Code/ml_model/training_and_predicting.py](src/Code/ml_model/training_and_predicting.py).
 
 ### Synthetic expert's decision evaluation
 
-The plots and numerical results regarding our synthetic expert's generation process and decision properties are obtained using the notebook [Code/experts/expert_properties.ipynb](Code/experts/expert_properties.ipynb).
+The plots and numerical results regarding our synthetic expert's generation process and decision properties are obtained using the notebook [src/Code/experts/expert_properties.ipynb](src/Code/experts/expert_properties.ipynb).
