@@ -15,7 +15,7 @@ if not os.path.isdir('./Code/experts/expert_info'):
     os.makedirs('./Code/experts/expert_info', exist_ok=True)
     for direc in os.listdir(dataset_models_path + '/experts/'):
         if direc.split('.')[-1] == 'csv':
-            file = pd.read_csv(dataset_models_path + '/experts/'+direc)
+            file = pd.read_csv(dataset_models_path + '/experts/' + direc)
             if direc in expert_index:
                 file = file.rename(columns = {'Unnamed: 0':'expert'}).set_index('expert')
             if direc in case_index:
